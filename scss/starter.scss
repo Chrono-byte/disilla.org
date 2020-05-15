@@ -9,7 +9,6 @@
 // `$body-color` or write more CSS that override's Bootstrap's CSS like so:
 // `body { color: red; }`.
 
-
 //
 // Override Bootstrap here
 //
@@ -22,24 +21,22 @@ $enable-shadows: true;
 $body-color: rgb(195, 203, 211);
 $body-bg: #18212e;
 
-
 //
 // Bring in Bootstrap
 //
 
 @import "bootstrap/scss/bootstrap";
 
-
 //
 // Custom styles
 //
 
 body {
-  padding: 3rem;
+    padding: 3rem;
 }
 
 marquee {
-  font-size: 30px;
-  font-weight: 800;
-  font-family: "Cantarell",sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Cantarell", sans-serif;
 }
