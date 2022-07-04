@@ -3,7 +3,7 @@ oauth: pages.sr.ht/PAGES:RW
 packages:
 - hut
 environment:
-  site: txtsd.srht.site
+  site: ihavea.quest
 tasks:
 - package: |
     cd $site
