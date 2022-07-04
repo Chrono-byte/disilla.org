@@ -6,7 +6,7 @@ environment:
   site: ihavea.quest
 tasks:
 - package: |
-    cd $site
+    cd txtsd.srht.site
     tar -cvz . > ../site.tar.gz
 - upload: |
     hut pages publish -d $site site.tar.gz
