@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #282A36;
+  font-family: "sans-serif";
+  font-size: 1em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#splash {
+  margin: auto 0;
+  height: 100vh;
+  /* width: 45%; */
+  overflow: hidden;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#oldman {
+  height: 25em;
+  width: 25em;
+}
+
+#swordleft {
+  height: 7em;
+  width: 6em;
+}
+
+#swordright {
+  height: 7em;
+  width: 2em;
+}
+
+.pixelated {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  /*position: absolute;*/
+  justify-content: center;
+  align-items: center;
+  background-color: #9a4e00;
+  margin: 2.05em 0 2.35em 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 1em;
+}
+
+#swordcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  color: #ddd;
+  margin: 1em;
+}
+
+a {
+  color: #8ada00;
+}
