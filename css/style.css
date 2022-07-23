@@ -18,7 +18,7 @@ body {
 #splash {
   margin: auto 0;
   height: 100vh;
-  /* width: 45%; */
+  /*width: 45%;*/
   overflow: hidden;
 }
 
@@ -29,30 +29,6 @@ body {
   align-items: center;
 }
 
-#oldman {
-  height: 25em;
-  width: 25em;
-}
-
-#swordleft {
-  height: 7em;
-  width: 6em;
-}
-
-#swordright {
-  height: 7em;
-  width: 2em;
-}
-
-.pixelated {
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -o-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
-  -ms-interpolation-mode: nearest-neighbor;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
-}
-
 ul {
   display: flex;
   flex-direction: row;
@@ -60,7 +36,7 @@ ul {
   justify-content: center;
   align-items: center;
   background-color: #9a4e00;
-  margin: 2.05em 0 2.35em 0;
+  margin: 2em 0 2em 0;
   height: 3em;
 }
 
@@ -82,4 +58,42 @@ h2 {
 a {
   color: #8ada00;
   text-decoration: none;
+}
+
+.pixel {
+  padding: 0.5em;
+}
+
+.pixelart {
+  display: flex;
+  flex-direction: column;
+}
+
+.pixelrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.orange {
+  background-color: #eb9f23;
+}
+
+.red {
+  background-color: #b53220;
+}
+
+.white {
+  background-color: #fefefe;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.green {
+  background-color: #89d900;
+}
+
+.brown {
+  background-color: #994f00;
 }
