@@ -6,7 +6,7 @@ environment:
   site: ihavea.quest
 tasks:
 - package: |
-    cd txtsd.srht.site
+    cd ihavea.quest
     rm LICENSE
     tar -cvz . > ../site.tar.gz
 - upload: |
