@@ -1,0 +1,19 @@
+{
+  "name": "ihavea.quest",
+  "version": "1.0.0",
+  "description": "txtsd's homepage",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "keywords": [],
+  "author": "txtsd <thexerothermicsclerodermoid@gmail.com>",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://ihavea.quest",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "moment": "^2.29.4"
+  }
+}
