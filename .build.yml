@@ -1,13 +1,19 @@
 image: alpine/edge
 oauth: pages.sr.ht/PAGES:RW
 packages:
-- hut
+  - nodejs
+  - hut
 environment:
   site: ihavea.quest
+  # https://docs.npmjs.com/cli/v6/using-npm/config#progress
+  CI: true
 tasks:
-- package: |
-    cd ihavea.quest
-    rm LICENSE
-    tar -cvz . > ../site.tar.gz
-- upload: |
-    hut pages publish -d $site site.tar.gz
+  - install: |
+      cd $site
+      npm install
+  - package: |
+      cd $site
+      npm run build
+      tar -C _site -cvz . > ../site.tar.gz
+  - upload: |
+      hut pages publish -d $site site.tar.gz
