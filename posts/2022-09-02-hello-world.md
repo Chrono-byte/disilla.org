@@ -19,7 +19,7 @@ The mobile view was initially supposed to change the sword to a shield to fit in
 
 ## Blog page
 
-I spent a very long time looking at [various blogs](https://drewdevault.com/make-a-blog) to find a design that I might like. It didn't happen. My brain wasn't cooperating with an original design either, so I did what I do whenever something like this happens. I looked at some tutorials to get [eleventy](https://www.11ty.dev/) set up, created some sample blog posts with different markdown elements, then got around to styling it by trial-and-error. Eventually, I ended up with something that I felt was good enough to publish. If you're reading this post in August 2022, you're probably seeing one of its first published iterations. It will definitely change over time as I get feedback about it, and I'm super excited about it!
+I spent a very long time looking at [various blogs](https://drewdevault.com/make-a-blog) to find a design that I might like. It didn't happen. My brain wasn't cooperating with an original design either, so I did what I do whenever something like this happens. I looked at some tutorials to get [eleventy](https://www.11ty.dev/) set up, created some sample blog posts with different markdown elements, then got around to styling it by trial-and-error. Eventually, I ended up with something that I felt was good enough to publish. If you're reading this post in September 2022, you're probably seeing one of its first published iterations. It will definitely change over time as I get feedback about it, and I'm super excited about it!
 
 ## Future plans
 
