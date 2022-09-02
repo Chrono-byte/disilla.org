@@ -1,6 +1,7 @@
 image: alpine/edge
 oauth: pages.sr.ht/PAGES:RW
 packages:
+  - npm
   - nodejs
   - hut
 environment:
