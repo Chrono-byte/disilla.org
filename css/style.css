@@ -147,6 +147,11 @@ article img {
   max-width: 100%;
 }
 
+code {
+  margin: 0em 0.5em 0em 0.5em;
+  background: #222;
+}
+
 /*
  * Media Queries
  */
