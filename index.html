@@ -1,52 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="stylesheet" href="assets/css/starter.css" />
-        <link rel="stylesheet" href="assets/css/marquee.css" />
-        <link rel="stylesheet" href="assets/css/cow.css" />
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-        <script
-            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"
-        ></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta property="og:title" content="disilla.org" />
-        <meta name="msvalidate.01" content="36453F5C91762D3A00EB845A94425BBF" />
+	<title>
+		About Chrono
+	</title>
 
-        <script
-            src="https://kit.fontawesome.com/bc9497a1fb.js"
-            crossorigin="anonymous"
-        ></script>
+	<link rel="stylesheet" type="text/css" href="./index.css">
 
-        <title>Chrono</title>
-    </head>
+	<style>
+		@font-face {
+			font-family: 'LXGWWenKai';
+			src: url('./fonts/LXGWWenKai-Regular.ttf') format('embedded-opentype'),
+				url('./fonts/LXGWWenKai-Regular.ttf') format('woff2'),
+				url('./fonts/LXGWWenKai-Regular.ttf') format('woff'),
+				url('./fonts/LXGWWenKai-Regular.ttf') format('truetype'),
+				url('./fonts/LXGWWenKai-Regular.ttf') format('svg');
+		}
 
-    <body>
-        <span class="contact">
-            <h3>Chrono</h3>
-            <a>Software Engineering Student</a>
-        </span>
-        
-        <span class="contact">
-            <h3>Contact:</h3>
-            <a title="Email" href="mailto:me@disilla.org">Email</a>
-        </span>
+		table {
+			width: 100%;
+		}
 
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script type="module" src="assets/js/starter.js"></script>
-    </body>
+		a {
+			text-decoration: none;
+		}
+
+		body {
+
+			font-family: 'LXGWWenKai', Fallback, sans-serif;
+			font-size: calc(0.8em + 0.5vw);
+
+			max-width: 70em;
+			margin: 0 5vw;
+			font-weight: 400;
+			line-height: 2;
+			color: #363f47;
+			background-color: #e9debb;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<h2> Chrono-byte </h2>
+	</header>
+
+	<p style="text-align:center">
+		<script language="JavaScript">
+			var nm = "chrono";
+			var hnm_l = "org"
+			var hnm_uni = "disilla";
+			var linktext = nm + "@" + hnm_uni + "." + hnm_l;
+			document.write("<a href=" + "'mai" + "lto:" + linktext + "'>" + "Email" + "</a>");;
+		</script> &nbsp;/&nbsp;
+		<a href="https://github.com/Chrono-byte"> GitHub </a> &nbsp;/&nbsp;
+		<a href="https://www.linkedin.com/in/michael-gummere/"> LinkedIn </a>
+	</p>
+
+	<div>
+		<p>
+			I'm a Computer Science student at ? University</a>.
+		</p>
+		<p>
+			My interests are video games and engineering, specifically automobile and aerospace.
+		</p>
+	</div>
+
+	<div id="bio">
+		<div class="container">
+			<h2 class="section_title">Biography</h2>
+			<p>
+				I was born in Indianapolis, Indiana, USA.
+				
+				I am currently finishing high school and am set to study Computer Science starting in 2023 at ? University.<br>
+
+				After that, I hope to ? and ?.
+			</p>
+		</div>
+
+	</div>
+
+</body>
+
 </html>
