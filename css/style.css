@@ -44,6 +44,10 @@ content div#about p, div#bio p {
     margin-bottom: 0;
 }
 
+content div#bio p i {
+    color: #363f4741;
+}
+
 article {
     margin-top: 1em;
     margin-bottom: 1em;
