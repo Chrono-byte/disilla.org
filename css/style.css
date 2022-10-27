@@ -54,9 +54,9 @@ article {
 }
 
 footer {
-    margin: 1em;
+    margin: 0em;
     font-size: 0.75em;
-    position: fixed;
+    /* position: revert-layer; */
     bottom: 0;
     left: 0;       
 }
