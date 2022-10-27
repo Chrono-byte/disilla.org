@@ -152,6 +152,14 @@ code {
   background: #222;
 }
 
+section {
+  margin: 1em;
+}
+
+section h1, section h2, section h3 {
+  margin-bottom: 0.5em;
+}
+
 /*
  * Media Queries
  */
