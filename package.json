@@ -1,7 +1,7 @@
 {
-  "name": "ihavea.quest",
+  "name": "disila.org",
   "version": "1.0.0",
-  "description": "txtsd's homepage",
+  "description": "chrono's homepage",
   "main": "index.js",
   "scripts": {
     "build": "npx eleventy",
@@ -9,9 +9,12 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "keywords": [],
-  "author": "txtsd <thexerothermicsclerodermoid@gmail.com>",
+  "contributors": [
+    "txtsd <thexerothermicsclerodermoid@gmail.com>",
+    "chrono <me@disilla.org"
+  ],
   "license": "AGPL-3.0-only",
-  "homepage": "https://ihavea.quest",
+  "homepage": "https://disilla.org",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "moment": "^2.29.4"
