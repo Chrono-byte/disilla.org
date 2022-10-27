@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="/css/style.css" />
-  <title>{{title}} — I have a quest!</title>
-</head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
+  		<link rel="stylesheet" type="text/css" href="/css/normalize.css" async />
+  		<link rel="stylesheet" type="text/css" href="/css/style.css" async />
+  		<meta name="viewport" content="width=device-width, initial-scale=1" />
+  		<meta charset="utf-8" />
 
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/misc">Misc</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    {{ content | safe }}
-  </main>
-  <footer>
-    The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>. The <a href="https://git.sr.ht/~txtsd/ihavea.quest">code for this site</a> is <a href="https://opensource.org/licenses/AGPL-3.0">AGPL-3.0-only</a>.
-  </footer>
-</body>
+		<title>About Chrono</title>
+	</head>
 
+	<body>
+		<header>
+			<h2 >
+				<a href="/">chrono-byte</a>
+			</h2>
+
+			<p>
+				<script language="JavaScript">
+					var name = "chrono";
+					var addr_tld = "org"
+					var addr_org = "disilla";
+					var address = name + "@" + addr_org + "." + addr_tld;
+					document.write("<a href=" + "'mai" + "lto:" + address + "'>" + "email" + "</a>");;
+				</script>
+				&nbsp;/&nbsp; <a href="https://twitter.com/chronomly"> twitter </a> 
+				&nbsp;/&nbsp; <a href="/blog/"> blog </a>
+			</p>
+			<p>
+				<a href="https://sr.ht/~chrono/"> sr.ht </a>
+				&nbsp;/&nbsp; <a href="https://github.com/Chrono-byte"> github </a> 
+			</p>
+		</header>
+
+		<content>
+			{{ content | safe }}
+		</content>
+
+		<footer>
+			The content of this site is All Rights Reserved. <br />
+			The <a href="https://git.sr.ht/~chrono/disilla.org">code used to host this site</a> is <a href="https://opensource.org/licenses/AGPL-3.0">AGPL-3.0-only</a>. 
+		</footer>
+	</body>
 </html>
+
+
