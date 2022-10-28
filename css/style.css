@@ -14,7 +14,7 @@ body {
 
 main {
 	margin: 0;
-	max-width: 90%;
+	/* max-width: 100%; */
 	padding: 0 1em;
 }
 
@@ -39,7 +39,7 @@ content {
 	grid-row: 2;
 }
 
-content div#about p, div#bio p {
+.subsection p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -58,18 +58,6 @@ div#work {
 
 div#projects {
 	grid-row: 4;
-}
-
-content div#projects p {
-	font-size: calc(0.3em + 0.5vw);
-	margin-bottom: 0;
-	margin-top: .1em;
-	width: 65%;
-}
-
-content div#projects h5 {
-	margin-top: 0;
-	margin-bottom: 0;
 }
 
 footer {
