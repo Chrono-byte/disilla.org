@@ -5,13 +5,13 @@ module.exports = function(eleventyConfig) {
   // Date formatting
   // from: https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/
   eleventyConfig.addFilter('dateIso', date => {
-    return moment(date).toISOString();
+	return moment(date).toISOString();
   });
 
   // Date formatting
   // from: https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/
   eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).utc().format('LL'); // E.g. May 31, 2019
+	return moment(date).utc().format('LL'); // E.g. May 31, 2019
   });
 
   // CSS Passthrough
@@ -20,6 +20,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img')
 
   return {
-    passthroughFileCopy: true
+	passthroughFileCopy: true
   }
 };
