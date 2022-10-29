@@ -33,7 +33,7 @@
 		<main style="display: grid;">
 			<header>
 				<h2>
-					<a href="/">/ home / chrono /</a> {{ title }}
+					<a href="/">/ home / chrono /</a> {% if tags[0] %} <a href="/{{ tags [0] }}/">{{ tags [0] }} /</a> {% endif %} {% if tags[0] == "positions"  or tags[0] == "blog" %} {{ id }} {% else %} {{ title }} {% endif %}
 				</h2>
 
 				<p>
@@ -50,8 +50,8 @@
 				</p>
 				<p>
 					<a href="/blog/">blog</a>
-					&nbsp;/&nbsp; <a href="/work/">work</a>
 					&nbsp;/&nbsp; <a href="/projects/">projects</a>
+					&nbsp;/&nbsp; <a href="/positions/">positions</a>
 				</p>
 			</header>
 
@@ -62,9 +62,8 @@
 			<footer>
 				<a style="margin: .1vh .1vh 0em" href="https://www.digitalocean.com/?refcode=0cbd24ae5dba&amp;utm_campaign=Referral_Invite&amp;utm_medium=Referral_Program&amp;utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge"></a>
 				<br />
-				The content of this site is all rights reserved. <br />
-				Some base code taken from <a href="https://git.sr.ht/~txtsd/ihavea.quest">txtsd's site</a>.
 				Comic Mono font is by <a href="https://dtinth.github.io/comic-mono-font/">dtinth</a>.<br />
+				The content of this site is all rights reserved.	<br />
 				The <a href="https://git.sr.ht/~chrono/disilla.org">code used to host this site</a> is <a href="https://opensource.org/licenses/AGPL-3.0">AGPL-3.0-only</a>.<br />
 			</footer>
 		</main>
