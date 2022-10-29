@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx eleventy",
     "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "spell-check": "yarn cspell lint --no-progress blog/* posts/* positions/* projects/* index.md"
   },
   "keywords": [],
   "contributors": [
@@ -17,6 +18,7 @@
   "homepage": "https://disilla.org",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "cspell": "^5.3.4"
   }
 }
