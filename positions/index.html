@@ -12,6 +12,6 @@ pagination:
     <h1>
       <a href="{{ x.url | url }}">{{ x.data.title }}</a>
     </h1>
-    <!-- <time datetime="{{ x.date | dateIso }}">{{ x.date | dateReadable }}</time> -->
+    <time datetime="{{ x.date | dateIso }}">{{ x.date | dateReadable }}</time>
   </article>
 {% endfor %}

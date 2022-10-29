@@ -33,7 +33,7 @@
 		<main style="display: grid;">
 			<header>
 				<h2>
-					<a href="/">/ home / chrono /</a> {% if tags[0] %} <a href="/{{ tags [0] }}/">{{ tags [0] }} /</a> {% endif %} {% if tags[0] == "positions"  or tags[0] == "blog" %} {{ id }} {% else %} {{ title }} {% endif %}
+					<a href="/">/ home / chrono /</a><a>{% if tags[0] == "positions" or tags[0] == "blog" %} <a href="/{{ tags [0] }}/">{{ tags [0] }} /</a> {% endif %} {% if tags[0] == "positions"  or tags[0] == "blog" %} {{ id }} {% else %} {{ title }} {% endif %}</a>
 				</h2>
 
 				<p>

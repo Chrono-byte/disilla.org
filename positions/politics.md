@@ -1,7 +1,7 @@
 ---
 layout: layouts/position.njk
 id: politics
-title: politics
+title: Politics
 tags: ['positions']
 date: 2022-10-28
 ---
