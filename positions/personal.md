@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 id: personal
-title: personal
+title: Biograpy & About Me
 tags: ['positions']
 date: 2022-10-28
 ---

@@ -3,6 +3,7 @@ layout: layouts/post.njk
 title: Hello, World!
 id: hello-world.md
 date: 2022-10-27
+author: John Doe
 tags: ['blog']
 ---
 
