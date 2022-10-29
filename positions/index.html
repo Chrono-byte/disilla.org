@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+title: positions
+pagination:
+  data: collections.positions
+  size: 100
+  reverse: true
+  alias: beliefs
+---
+{% for x in beliefs %}
+  <article style="margin:0;">
+    <h1>
+      <a href="{{ x.url | url }}">{{ x.data.title }}</a>
+    </h1>
+    <!-- <time datetime="{{ x.date | dateIso }}">{{ x.date | dateReadable }}</time> -->
+  </article>
+{% endfor %}

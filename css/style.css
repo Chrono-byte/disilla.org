@@ -48,16 +48,12 @@ div#about {
 	grid-row: 1;
 }
 
-div#bio {
+div#work {
 	grid-row: 2;
 }
 
-div#work {
-	grid-row: 3;
-}
-
 div#projects {
-	grid-row: 4;
+	grid-row: 3;
 }
 
 footer {
