@@ -20,16 +20,17 @@ I think there are some good ideas that some good ideas can come from right wing 
 
 #### Neo-conservatives
 
+> "At its root is a disease that has infected our politics, one that will make some political leaders do anything – including lie and incite violence – to hold on to power.  That’s what we’re seeing before our very eyes." - Rep. Greg Stanton [(January 6th, 2021)](https://www.youtube.com/watch?v=PAQY8U6goEw)
+
 I generally try not to wholely disregard groups, however from my engagement with many neo-cons online, I've come to fundamentally regard them as one of the single greatest threats to American democracy.
 
 ### Liberalism (As in left-wing)
 
-
+Soon™️
 
 #### Leftists
 
-Individuals who fall further left than US liberals often are described (in US politics) as "leftists". Personally I believe this to be far to broad a term to have any meaningful
-discussion about.
+Individuals who fall further left than US liberals often are described (in US politics) as "leftists". Personally I believe this to be far to broad a term to have any meaningful discussion about.
 
 ### "Omni-Liberalism"
 
@@ -39,10 +40,6 @@ In politics, it can be useful to know which particular ideology someone subscrib
 2. Taking the best parts of all different kinds of political ideologies and using them together in a pragmatic way.
 
 Omni-liberalism was created by [Destiny](https://destiny.gg), an online political streamer who's communities I frequent.
-
-#### Changing economic systems
-
-I don't feel dogmatically attached to any particular form of government or economic system. If it can be demonstrated that some economic system (socialism, capitalism, etc.) can consistently produce better economic and social outcomes for a given society, that would be the economic system I would advocate for. As of right now, I believe that free markets with strong social safety nets (see: [Scandinavia](https://en.wikipedia.org/wiki/Nordic_model)) are the most effective way of achieving these ends.
 
 ### Capitalism
 
