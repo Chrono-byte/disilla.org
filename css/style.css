@@ -2,7 +2,7 @@ a {
 	text-decoration: none;
 }
 
-body {
+html {
 	font-family: "Comic Mono", Fallback, sans-serif;
 	font-size: calc(0.6em + 0.5vw);
 
