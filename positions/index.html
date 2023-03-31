@@ -2,20 +2,40 @@
 layout: layouts/base.njk
 title: positions
 pagination:
-  data: collections.positions
-  size: 100
-  reverse: true
-  alias: beliefs
+    data: collections.positions
+    size: 100
+    reverse: true
+    alias: beliefs
 ---
 
-<h3 style="margin: 0;">Notes:</h3>
-The contents of these articles have timestamps for when the page had it's last major rewrite by myself.
+<div style="width: 100%" class="grid">
+    <div class="background-card" style="color: #ffffff;" style="margin-bottom: 15px">
+        <h3 style="margin: 0">Notes:</h3>
+        The contents of these articles have timestamps for when the page had a
+        last major revision. The contents of these articles are not meant to be
+        a complete list of my beliefs, but rather a list of my beliefs that I
+        have found to be important enough to write about. I will update these
+        articles as I learn more and change my mind.
+    </div>
 
-{% for x in beliefs %}
-  <article style="margin:0;">
-    <h1>
-      <a href="{{ x.url | url }}">{{ x.data.title }}</a>
-    </h1>
-    <time datetime="{{ x.date | dateIso }}">{{ x.date | dateReadable }}</time>
-  </article>
-{% endfor %}
+    <div style="margin-bottom: 0px" class="blog">
+        {% for post in beliefs %}
+        <div class="background-card" style="margin-bottom: 15px">
+            <h1 style="margin-bottom: 0px">
+                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            </h1>
+            <time
+                style="margin-bottom: 0px"
+                datetime="{{ post.date | dateIso }}"
+                >{{ post.date | dateReadable }}</time
+            >
+            <!-- rounded box -->
+            <a>
+                {% for tag in post.data.tags %} {% if tag != "blog" %}
+                <span class="tags">{{ tag }}</span>
+                {% endif %} {% endfor %}
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

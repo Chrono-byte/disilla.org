@@ -17,7 +17,7 @@
   "homepage": "https://disilla.org",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "moment": "^2.29.4",
-    "cspell": "^5.3.4"
+    "cspell": "^5.3.4",
+    "moment": "^2.29.4"
   }
 }

@@ -1,10 +1,20 @@
 ---
 layout: layouts/base.njk
 ---
-<article>
-  <header style="margin: 0;">
-    <h1>{{ title }}</h1>
-    <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
-  </header>
-  {{ content | safe }}
-</article>
+
+<div style="width: 100%" class="grid">
+    <div class="background-card" style="color: #ffffff;" style="margin-bottom: 15px">
+        <h1 style="margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px;">{{ title }}</h1>
+        {# author disclaimer #}
+        <a style="font-size: 11px; margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px;">
+            {% for tag in tags %}
+                {% if tag != "blog" %}
+                    <span class="tags">{{ tag }}</span>
+                {% endif %}
+            {% endfor %}
+        </a><br />
+        {# pub date #}
+        <time style="padding-left: 15px" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
+        {{ content | safe }}
+    </div>
+</div>

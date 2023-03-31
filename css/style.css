@@ -1,133 +1,233 @@
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 html {
-	font-family: "Comic Mono", Fallback, sans-serif;
-	font-size: calc(0.6em + 0.5vw);
+    font-family: "Comic Mono", Fallback, sans-serif;
+    /* font-size: calc(0.6em + 0.5vw); */
 
-	font-weight: 400;
-	line-height: 2.25;
-	color: #363f47;
-	background-color: #e9debb;
+    /* exponentially scale font size based on smaller screen size */
+    font-size: calc(0.75rem + 0.2vw);
+    font-weight: 100;
+    line-height: 1.25rem;
+
+    font-weight: 400;
+    line-height: 2.25;
+
+    color: #363f47;
+    background-color: #e9debb;
 }
 
-main {
-	margin: 0;
-	padding-left: 12%;
-	padding-right: 12%;
-	/* padding: 0 1em; */
+body {
+    gap: 1.3rem;
+    margin: 1.3rem;
+
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
 }
 
-.animate__animated.animate__slideInLeft {
-	--animate-duration: 2.11s;
-}
-
-.headerblack {
-	margin-top: 0;
-	margin-bottom: 0;
-	color: #000;
+.header a {
+    color: #000;
 }
 
 header {
-	margin-top: 1vh;
-	margin-bottom: 0;
-	grid-row: 1;
+    grid-row: 1;
 }
 
 content {
-	display: inline-grid;
+    /* display: inline-grid; */
 
-	margin-top: 0;
-	margin-bottom: 20px;
-	grid-row: 2;
-}
-
-.subsection p {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-div#about {
-	grid-row: 1;
-}
-
-div#work {
-	grid-row: 2;
-}
-
-div#projects {
-	grid-row: 3;
+    margin-top: 0;
+    grid-row: 2;
 }
 
 footer {
-	margin-top: .6vh;
-	grid-row: 3;
-	font-size: 0.75em;
-	margin-bottom: .6vh;
+    grid-row: 3;
+    font-size: 0.75em;
 }
 
-header h2, header h2 a {
-	margin: 0;
-	color: #000;
-}
-
-header p {
-	line-height: 1.5;
+header h2,
+header h2 a {
+    margin: 0;
+    color: #000;
 }
 
 header p {
-	text-align: center;
-	margin-top: 0;
-	margin-bottom: 0;
+    line-height: 1.5;
+}
+
+header p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 article h1,
 article h2,
 article h3,
 article h4 {
-	margin-top: 0;
-	margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 article h2 {
-	margin-left: 1em;
+    margin-left: 1em;
 }
 
 article h3 {
-	margin-left: 1.5em;
+    margin-left: 1.5em;
 }
 
 article h4 {
-	margin-left: 2em;
+    margin-left: 2em;
 }
 
 article p {
-	margin: 0.75em;
+    margin: 0.75em;
 }
 
 article time {
-	margin: 0.25em;
+    margin: 0.25em;
 }
 
 article header {
-	margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 article img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 code {
-	margin: 0em 0.5em 0em 0.5em;
-	background: #222;
+    margin: 0em 0.5em 0em 0.5em;
+    background: #222;
+}
+
+.grid {
+    gap: 1.3rem;
+}
+
+.lazy {
+    transition: opacity 0.8s;
+}
+
+.profile-back {
+    background: rgba(10, 0, 10, 0.4);
+    border-radius: 0.8rem;
+    border: 6px solid #555;
+
+    max-width: fit-content;
+}
+
+.background-card {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 0.8rem;
+    border: 6px solid #555;
+
+    padding: 25px;
+    margin-bottom: 1.3rem;
+
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.profile-card {
+    margin: 25px;
+    color: #f0f0f0;
+}
+
+.about p,
+li {
+    color: #f0f0f0;
+    margin: 0;
+}
+
+.articles {
+    font-size: 0.75rem;
+    line-height: 2rem;
+
+    color: #f0f0f0;
+}
+
+.blog {
+    font-size: 0.75rem;
+    line-height: 2rem;
+
+    color: #f0f0f0;
+}
+
+.articles h {
+    margin: 0;
+}
+
+/* change all links to brown */
+.background-card {
+    font-weight: bold;
+}
+
+.profile-card {
+    font-weight: bold;
+}
+
+.tags {
+    background: rgba(0, 0, 0, 0.37);
+    border: #f0f0f0;
+    border-radius: 1rem;
+
+    padding: 0.2rem 0.5rem;
+}
+
+/* purdue gold */
+.gold {
+    color: #daaa00;
+}
+
+/* purdue black */
+.black {
+    color: #000000;
+}
+
+/* VEX V5 Red™ */
+.red {
+    color: #d22630;
+}
+
+/* IU Crimson */
+.crimson {
+    color: #990000;
+}
+
+/* bold pure white */
+.white {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* JS Yellow */
+.js {
+    color: #f7e01d;
+}
+
+/* TS blue */
+.ts {
+    color: #2d79c7;
+}
+
+/* C++  */
+.cpp {
+    color: #659bd3;
+}
+
+/* discord blurple */
+.discord {
+    color: #5865f2;
 }
 
 /*
  * Media Queries
  */
 @media (max-width: 50em) {
-	main {
-		width: unset;
-	}
+    main {
+        width: unset;
+    }
 }

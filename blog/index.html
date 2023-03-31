@@ -1,17 +1,33 @@
 ---
 layout: layouts/base.njk
+id: blog
 title: blog
 pagination:
-  data: collections.blog
-  size: 100
-  reverse: true
-  alias: posts
+    data: collections.blog
+    size: 100
+    reverse: true
+    alias: posts
 ---
-{% for post in posts %}
-  <article>
-    <h1>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h1>
-    <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-  </article>
-{% endfor %}
+
+<div style="width: 100%" class="grid">
+    <div style="margin-bottom: 0px" class="blog">
+        {% for post in posts %}
+        <div class="background-card" style="margin-bottom: 15px">
+            <h1 style="margin-bottom: 0px">
+                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            </h1>
+            <time
+                style="margin-bottom: 0px"
+                datetime="{{ post.date | dateIso }}"
+                >{{ post.date | dateReadable }}</time
+            >
+            <!-- rounded box -->
+            <a>
+                {% for tag in post.data.tags %} {% if tag != "blog" %}
+                <span class="tags">{{ tag }}</span>
+                {% endif %} {% endfor %}
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
