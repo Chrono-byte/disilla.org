@@ -1,29 +1,37 @@
-a {
+* a {
     text-decoration: none;
 }
 
-html {
-    font-family: "Comic Mono", Fallback, sans-serif;
-    /* font-size: calc(0.6em + 0.5vw); */
+@font-face {
+    font-family: Comic Mono;
+    font-weight: normal;
+    src: url(/fonts/ComicMono.ttf);
+}
 
-    /* exponentially scale font size based on smaller screen size */
-    font-size: calc(0.75rem + 0.2vw);
-    font-weight: 100;
-    line-height: 1.25rem;
-
-    font-weight: 400;
-    line-height: 2.25;
-
-    color: #363f47;
-    background-color: #e9debb;
+@font-face {
+    font-family: Comic Mono;
+    font-weight: bold;
+    src: url(/fonts/ComicMono-Bold.ttf);
 }
 
 body {
+    color: #363f47;
+    background-color: #e9debb;
+
     gap: 1.3rem;
     margin: 1.3rem;
 
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
+    max-width: 82.48vw;
+
+    /* center the body */
+    margin-left: 8.76vw;
+    margin-right: 8.76vw;
+
+    font-family: "Comic Mono";
+    font-size: calc(0.75rem + 0.2vw);
+
+    font-weight: 400;
+    line-height: 2.23rem;
 }
 
 .header a {
@@ -104,7 +112,7 @@ code {
 }
 
 .grid {
-    gap: 1.3rem;
+    /* gap: 1.3rem; */
 }
 
 .lazy {
@@ -114,21 +122,17 @@ code {
 .profile-back {
     background: rgba(10, 0, 10, 0.4);
     border-radius: 0.8rem;
-    border: 6px solid #555;
-
-    max-width: fit-content;
+    border: 6.45px solid #555;
 }
 
 .background-card {
     background: rgba(0, 0, 0, 0.45);
     border-radius: 0.8rem;
-    border: 6px solid #555;
+    border: 6.45px solid #555;
+
 
     padding: 25px;
     margin-bottom: 1.3rem;
-
-    margin-top: 0;
-    margin-left: 0;
 }
 
 .profile-card {
@@ -185,6 +189,11 @@ li {
 /* purdue black */
 .black {
     color: #000000;
+}
+
+/* f1 red */
+.f1 {
+    color: #E10600;
 }
 
 /* VEX V5 Red™ */

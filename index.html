@@ -7,7 +7,7 @@ pagination:
     reverse: true
     alias: posts
 ---
-<div style="display: flex; flex-wrap: wrap; flex-direction: row" class="grid">
+<div style="display: grid; flex-wrap: wrap; flex-direction: row" class="grid">
     <div style="flex: 1" class="profile-back">
         <div class="profile-card">
             <img
@@ -16,10 +16,10 @@ pagination:
                 alt="logo"
                 data-ll-status="loaded"
                 width="55.3%"
-                style="border: 6px solid #555; border-radius: 29.97%;"
-            />
+                style="border: 6px solid #555; border-radius: 29.97%;"/>
             <div class="name">Michael Gummere</div>
             <div class="name-alt">@chrono / @chrono-byte</div>
+
             <div>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -32,66 +32,66 @@ pagination:
                     ></path>
                 </svg>
                 <a class="gold">Purdue University in Indianapolis</a>
-            </div>
-            <div>
-                <svg
+                <a class="crimson" style="font-size: xx-small;"> @ IU<a class="gold" style="font-size: xx-small   ;">PU</a>
+                    <a style="font-size: xx-small;">I (for now)</a>
+                </div>
+                <div>
+                    <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"
                     width="16"
                     height="16"
                 >
-                    <path
+                        <path
                         d="m12.596 11.596-3.535 3.536a1.5 1.5 0 0 1-2.122 0l-3.535-3.536a6.5 6.5 0 1 1 9.192-9.193 6.5 6.5 0 0 1 0 9.193Zm-1.06-8.132v-.001a5 5 0 1 0-7.072 7.072L8 14.07l3.536-3.534a5 5 0 0 0 0-7.072ZM8 9a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 9Z"
                     ></path>
-                </svg>
-                <!-- USA flag emoji -->
+                    </svg>
+                    <!-- USA flag emoji -->
                 Indianapolis, IN, USA
             </div>
-            <div>
-                <svg
+                <div>
+                    <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"
                     width="16"
                     height="16"
                 >
-                    <path
+                        <path
                         d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"
                     ></path>
-                </svg>
-                <a id="time"></a>
-                <script>
-                    // show ONLY time, no date, in EST time zone (UTC-5) every second
-                    document.getElementById("time").innerHTML =
-                        new Date().toLocaleTimeString("en-US", {
-                            timeZone: "America/Indiana/Indianapolis",
-                        });
-                    setInterval(function () {
-                        document.getElementById("time").innerHTML =
-                            new Date().toLocaleTimeString("en-US", {
-                                timeZone: "America/Indiana/Indianapolis",
-                            });
-                    }, 1000);
-                </script>
-            </div>
-            <div>
-                <svg
+                    </svg>
+                    <a id="time"></a>
+                    <script>
+                        // show ONLY time, no date, in EST time zone (UTC-5) every second
+                        document
+                            .getElementById("time")
+                            .innerHTML = new Date().toLocaleTimeString("en-US", {timeZone: "America/Indiana/Indianapolis"});
+                        setInterval(function () {
+                            document
+                                .getElementById("time")
+                                .innerHTML = new Date().toLocaleTimeString("en-US", {timeZone: "America/Indiana/Indianapolis"});
+                        }, 1000);
+                    </script>
+                </div>
+                <div>
+                    <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"
                     width="16"
                     height="16"
                 >
-                    <path
+                        <path
                         d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z"
                     ></path>
-                </svg>
+                    </svg>
                 🇺🇸 <a class="white" style="font-size: smaller;">(native)</a> / 🇫🇷 <a class="white" style="font-size: smaller;">(beginner)</a>
+                </div>
             </div>
         </div>
     </div>
-
     <div style="flex: 2;">
         <div class="background-card">
-            <div class="about">
+            <article class="about">
                 <p>
                     I'm a software developer / engineering student and a rising
                     freshman at
@@ -132,31 +132,32 @@ pagination:
                         always open to talking about almost anything.
                     </li>
                 </ul>
-            </div>
+            </article>
         </div>
 
         <div class="background-card" style="margin-bottom: 0;">
             <div class="articles">
                 {% for post in posts %}
-                <div>
-                    <h1 style="margin-bottom: 0px;">
-                        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-                    </h1>
-                    <time
+                    <div>
+                        <h1 style="margin-bottom: 0px;">
+                            <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                        </h1>
+                        <time
                         style="margin-bottom: 0px;"
                         datetime="{{ post.date | dateIso }}"
                         >{{ post.date | dateReadable }}</time
                     >
-                    <!-- rounded box -->
-                    <a>
-                        {% for tag in post.data.tags %} {% if tag != "blog" %}
-                        <span class="tags">{{ tag }}</span>
-                        {% endif %} {% endfor %}
-                    </a>
-                </div>
+                        <!-- rounded box -->
+                        <a>
+                            {% for tag in post.data.tags %}
+                                {% if tag != "blog" %}
+                                    <span class="tags">{{ tag }}</span>
+                                {% endif %}
+                            {% endfor %}
+                        </a>
+                    </div>
                 {% endfor %}
             </div>
         </div>
     </div>
-
 </div>
