@@ -8,9 +8,9 @@ pagination:
     alias: beliefs
 ---
 
-<div style="width: 100%" class="grid">
-    <div class="background-card" style="color: #ffffff;" style="margin-bottom: 15px">
-        <h3 style="margin: 0">Notes:</h3>
+<div style="grid-area: content; grid-column: 1/4;">
+    <div class="background-card" style="color: #ffffff; margin-bottom: calc(0.75rem + 0.2vw);">
+        <h3>Notes:</h3>
         The contents of these articles have timestamps for when the page had a
         last major revision. The contents of these articles are not meant to be
         a complete list of my beliefs, but rather a list of my beliefs that I
@@ -18,7 +18,7 @@ pagination:
         articles as I learn more and change my mind.
     </div>
 
-    <div style="margin-bottom: 0px" class="blog">
+    <div>
         {% for post in beliefs %}
         <div class="background-card" style="margin-bottom: 15px">
             <h1 style="margin-bottom: 0px">

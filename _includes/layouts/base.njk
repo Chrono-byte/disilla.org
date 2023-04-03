@@ -1,70 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-
-        {# <link #}
-        {# rel="stylesheet" #}
-        {# type="text/css" #}
-        {# href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css"/> #}
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
         <link
             rel="stylesheet"
             type="text/css"
             href="/css/normalize.css"
-            async/>
+            async
+        />
 
-        <link rel="stylesheet" type="text/css" href="/css/style.css" async/>
+        <link rel="stylesheet" type="text/css" href="/css/style.css" async />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
 
         <title>chrono</title>
-        <meta name="description" content="hi, i'm chrono. visit my site."/>
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:creator" content="@chronomly"/>
+        <meta name="description" content="hi, i'm chrono. visit my site." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@chronomly" />
         <meta
             property="og:description"
             content="hi, i'm chrono. visit my site."
-/>
-        <meta property="og:type" content="website"/>
+        />
+        <meta property="og:type" content="website" />
         <meta
             property="og:image"
             content="https://disilla.org/img/social.png"
-/>
-        <meta property="og:image:alt" content="chrono-byte"/>
-        <meta property="og:image:width" content="319"/>
-        <meta property="og:image:height" content="161"/>
-        <meta property="og:locale" content="en_US"/>
-        <meta property="og:site_name" content="chrono"/>
-        <meta name="robots" content="index,follow"/>
-        <meta property="og:title" content="chrono"/>
-        <meta property="og:url" content="https://disilla.org"/>
-        <link rel="canonical" href="https://disilla.org/"/>
-        <meta name="theme-color" content="#e9debb"/>
+        />
+        <meta property="og:image:alt" content="chrono-byte" />
+        <meta property="og:image:width" content="319" />
+        <meta property="og:image:height" content="161" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:site_name" content="chrono" />
+        <meta name="robots" content="index,follow" />
+        <meta property="og:title" content="chrono" />
+        <meta property="og:url" content="https://disilla.org" />
+        <link rel="canonical" href="https://disilla.org/" />
+        <meta name="theme-color" content="#e9debb" />
     </head>
 
-    <body style="display: grid">
+    <body class="wrapper">
         <header>
             <h2>
                 <a href="/">/ home / chrono /</a>
                 <a>
                     {% if tags[0] == "positions" or tags[0] == "blog" %}
-                        <a href="/{{ tags [0] }}/">{{ tags [0] }} /</a>
-                    {% endif %}
-                    {% if id %}
-                        {{ id }}
-                    {% else %}
-                        {{ title }}
-                    {% endif %}
+                    <a href="/{{ tags[0] }}/">{{ tags[0] }} /</a>
+                    {% endif %} {% if id %} {{ id }} {% else %} {{ title }} {%
+                    endif %}
                 </a>
             </h2>
 
-            {# header div #}
             <div class="header">
                 <p>
                     <a href="/blog/">blog</a>
-                    &nbsp;/&nbsp; <a href="/projects/">current &amp; past projects</a>
+                    &nbsp;/&nbsp;
+                    <a href="/projects/">current &amp; past projects</a>
                     &nbsp;/&nbsp; <a href="/positions/">political notes</a>
                 </p>
                 <p>
@@ -73,7 +65,14 @@
                         var addr_org = "disilla";
                         var addr_tld = "org";
                         var address = name + "@" + addr_org + "." + addr_tld;
-                        document.write("<a href=" + "'mailto:" + address + "'>" + "email" + "</a>");
+                        document.write(
+                            "<a href=" +
+                                "'mailto:" +
+                                address +
+                                "'>" +
+                                "email" +
+                                "</a>"
+                        );
                     </script>
                     &nbsp;/&nbsp;
                     <a href="https://twitter.com/chronomly">twitter</a>
@@ -84,36 +83,30 @@
             </div>
         </header>
 
-        <content>
-            {{ content | safe }}
-        </content>
+        {{ content | safe }}
 
-        <footer
-            class="white background-card"
-            style="background: rgba(0, 0, 0, 0.6); border: 6.45px solid #000;"
-        >
+        <footer class="white">
             <a href="https://ko-fi.com/P5P05A1PW" target="_blank"
-                    ><img
-                        height="36"
-                        style="border: 0px; height: 36px"
-                        src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                        border="0"
-                        alt="Buy Me a Coffee at ko-fi.com"
-/></a>
-            <br/>
+                ><img
+                    height="36"
+                    style="border: 0px; height: 36px"
+                    src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
+                    border="0"
+                    alt="Buy Me a Coffee at ko-fi.com"
+            /></a>
+            <br />
             <a
-                    style="margin: 0.1vh 0.1vh 0em"
-                    href="https://www.digitalocean.com/?refcode=0cbd24ae5dba&amp;utm_campaign=Referral_Invite&amp;utm_medium=Referral_Program&amp;utm_source=badge"
-                    ><img
-                        src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg"
-                        alt="DigitalOcean Referral Badge"
-/></a>
-            <br/>
-                Comic Mono font is by
-                <a href="https://dtinth.github.io/comic-mono-font/"
-                    >dtinth</a
-                >.<br/>
-                The content of this site is all rights reserved. <br/>
+                style="margin: 0.1vh 0.1vh 0em"
+                href="https://www.digitalocean.com/?refcode=0cbd24ae5dba&amp;utm_campaign=Referral_Invite&amp;utm_medium=Referral_Program&amp;utm_source=badge"
+                ><img
+                    src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg"
+                    alt="DigitalOcean Referral Badge"
+            /></a>
+            <br />
+            Comic Mono font is by
+            <a href="https://dtinth.github.io/comic-mono-font/">dtinth</a
+            >.<br />
+            The content of this site is all rights reserved. <br />
         </footer>
     </body>
 </html>
