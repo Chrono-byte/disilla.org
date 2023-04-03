@@ -8,6 +8,12 @@ pagination:
     alias: beliefs
 ---
 
+<style>
+    .posContainer {
+        margin: 1vw;
+    }
+</style>
+
 <div style="grid-area: content; grid-column: 1/4;">
     <div class="background-card" style="color: #ffffff; margin-bottom: calc(0.75rem + 0.2vw);">
         <h3>Notes:</h3>
@@ -18,24 +24,26 @@ pagination:
         articles as I learn more and change my mind.
     </div>
 
-    <div>
+    <div class="posContainer">
         {% for post in beliefs %}
-        <div class="background-card" style="margin-bottom: 15px">
-            <h1 style="margin-bottom: 0px">
-                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-            </h1>
-            <time
+            <div class="background-card" style="margin-bottom: 15px">
+                <h1 style="margin-bottom: 0px">
+                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                </h1>
+                <time
                 style="margin-bottom: 0px"
                 datetime="{{ post.date | dateIso }}"
                 >{{ post.date | dateReadable }}</time
             >
-            <!-- rounded box -->
-            <a>
-                {% for tag in post.data.tags %} {% if tag != "blog" %}
-                <span class="tags">{{ tag }}</span>
-                {% endif %} {% endfor %}
-            </a>
-        </div>
+                <!-- rounded box -->
+                <a>
+                    {% for tag in post.data.tags %}
+                        {% if tag != "blog" %}
+                            <span class="tags">{{ tag }}</span>
+                        {% endif %}
+                    {% endfor %}
+                </a>
+            </div>
         {% endfor %}
     </div>
 </div>
