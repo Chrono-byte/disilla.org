@@ -6,8 +6,9 @@ body {
     color: #363f47;
     background-color: #e9debb;
 
+    font-weight: 100;
     font-family: "Comic Mono";
-    font-size: calc(0.75rem + 0.2vw);
+    font-size: calc(0.63rem + 0.2vw);
 
     line-height: 2.23rem;
 }
@@ -15,7 +16,7 @@ body {
 .wrapper {
     display: grid;
     gap: 1.3rem;
-    margin: 1.2rem;
+    margin: .5rem;
     grid-template-areas:
         "header"
         "sidebar"
@@ -179,7 +180,6 @@ code {
 
     min-width: 17vw;
 
-    font-weight: bold;
     color: #f0f0f0;
 }
 

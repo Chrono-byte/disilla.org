@@ -74,25 +74,26 @@ layout: layouts/base.njk
 
     article {
         padding: 1rem;
-
-        max-width: 75.97vw;
     }
 
     @media (min-width: 300px) {
         .background-card {
-            margin: 0;
+            margin: 0 1.10vw;
+            padding: 7px;
         }
     }
 
-    @media (min-width: 450px) {
+    @media (min-width: 800px) {
+        .background-card {
+            margin: 0 1.15vw;
+            padding: 13.2px;
+        }
+    }
+
+    @media (min-width: 1450px) {
         .background-card {
             margin: 0 1.25vw;
-        }
-    }
-
-    @media (min-width: 700px) {
-        .background-card {
-            margin: 0 5vw;
+            padding: 25px;
         }
     }
 </style>
