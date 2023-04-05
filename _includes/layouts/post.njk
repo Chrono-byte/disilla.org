@@ -1,20 +1,112 @@
 ---
 layout: layouts/base.njk
 ---
+<style>
+    .timestamp {
+        background: rgba(0, 0, 0, 0.37);
+        border: #f0f0f0;
+        border-radius: 1rem;
 
-<div style="width: 100%" class="grid">
-    <div class="background-card" style="color: #ffffff; max-width: 82.48vw" style="margin-bottom: 15px">
-        <h1 style="margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px;">{{ title }}</h1>
-        {# author disclaimer #}
-        <a style="font-size: 11px; margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px;">
+        font-size: calc(0.75rem + 0.2vw);
+
+        padding: 0.2vw 0.7rem;
+    }
+
+    article h1 {
+        margin-top: 13px;
+        margin-bottom: 3px;
+        padding-bottom: 3px;
+
+        font-size: calc(1.5rem + .8vw);
+    }
+
+    article h2,
+    article h3,
+    article h4,
+    article h5,
+    article h6 {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+
+        {
+            # underline #
+        }
+        border-bottom: 5px solid #f0f0f0;
+        padding-bottom: 0.1rem;
+
+        {
+            # lock the underline to the width of the text #
+        }
+        max-width: fit-content;
+    }
+
+    article h2 {
+        margin-top: 1.3rem;
+    }
+
+    p {
+        margin-top: 0.1rem;
+        margin-bottom: 0;
+    }
+
+    article p {
+        margin: 0.3em;
+    }
+
+    article time {
+        margin: 0.25em;
+    }
+
+    article header {
+        margin-bottom: 2em;
+    }
+
+    article img {
+        width: 175px;
+
+        border: 0.3em solid #f0f0f0;
+        border-radius: 1rem;
+
+        padding: 1rem;
+
+        background: rgba(0, 0, 0, 0.37);
+    }
+
+    article {
+        margin: 0 5vw;
+        padding: 1rem;
+
+        max-width: 75.97vw;
+    }
+
+    @media (min-width: 300px) {
+        .background-card {
+            margin: 0;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .wrapper:not(.has-sidebar) {
+            grid-template-columns: 1fr;
+            grid-template-areas: "header" "content" "footer";
+        }
+    }
+</style>
+
+<div style="grid-area: content;">
+    <article class="background-card" style="color: #ffffff;">
+        <h1>{{ title }}</h1>
+        <time class="timestamp" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time><br/>
+        {% if tags[1] %}
+            <a style="font-size: 11px; margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px;">
+            tags:
             {% for tag in tags %}
-                {% if tag != "blog" %}
-                    <span class="tags">{{ tag }}</span>
-                {% endif %}
-            {% endfor %}
-        </a><br />
-        {# pub date #}
-        <time style="padding-left: 15px" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
+                    {% if tag != "blog" %}
+                        <span class="tags">{{ tag }}</span>
+                    {% endif %}
+                {% endfor %}
+            </a><br/>
+        {% endif %}
         {{ content | safe }}
-    </div>
+    </article>
 </div>

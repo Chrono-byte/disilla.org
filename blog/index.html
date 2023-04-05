@@ -9,10 +9,37 @@ pagination:
     alias: posts
 ---
 <style>
-    @media (min-width: 1000px) {
-        .wrapper:not(.has-sidebar) {
-            grid-template-columns: 1fr;
-            grid-template-areas: "header" "content" "footer";
+    .wrapper:not(.has-sidebar) {
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "content" "footer";
+    }
+
+    @media (min-width: 300px) {
+        .postContainer {
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .tags {
+            display: none;
+        }
+    }
+
+    @media (min-width: 800px) {
+        .postContainer {
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .tags {
+            display: inline;
+        }
+    }
+
+    @media (min-width: 1450px) {
+        .postContainer {
+            grid-template-rows: repeat(1, 1fr);
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 </style>
@@ -23,7 +50,7 @@ pagination:
         <p>Here you can find all my blog posts. I write about my projects, my thoughts and my life.</p>
     </div>
 
-    <div class="postContainer blog">
+    <div style="margin: 0px 1vw;" class="postContainer blog">
         {% for post in posts %}
             <div class="post">
                 <h1 style="margin-bottom: 0px">

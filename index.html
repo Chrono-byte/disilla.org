@@ -6,7 +6,6 @@ pagination:
     reverse: true
     alias: posts
 ---
-
 <div style="" class="profile-card">
     <img src="/img/25267581.png" class="lazy" alt="image of female knight holding a sword" data-ll-status="loaded" width="36.3%"
             style="border: 6px solid #555; border-radius: 29.97%;"/>
@@ -20,7 +19,8 @@ pagination:
         </svg>
         <a class="gold">Purdue University in Indianapolis</a>
         <a class="crimson" style="font-size: xx-small;"> @ IU<a class="gold" style="font-size: xx-small;">PU</a>
-            <a style="font-size: xx-small;">I (for now)</a>
+            <a style="font-size: xx-small;">I</a>
+
         </div>
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -56,12 +56,13 @@ pagination:
                 style="font-size: smaller;">(beginner)</a>
         </div>
     </div>
+</div>
 
-    <div style="grid-area: content">
-        <div style="gap: 1.3rem;" class="grid">
-            <div style="grid-column: 1 / 3; grid-row: 1;" class="background-card">
-                <article class="about">
-                    <p>
+<div style="grid-area: content">
+    <div class="grid">
+        <div style="grid-column: 1 / 3; grid-row: 1;" class="background-card">
+            <article class="about">
+                <p>
                     I'm a student and a rising freshman at
                     <a class="gold">Purdue University in Indianapolis</a>
                     studying engineering. I'm currently working on a
@@ -79,50 +80,73 @@ pagination:
                     work for a motorsports team as a software engineer or
                     possibly switching disciplines and becoming a engineer.
                 </p>
-                    <ul>
-                        <li>
+                <ul>
+                    <li>
                         🤖 4 years of experience competing in the
                         <a class="crimson" href="https://www.robotevents.com/teams/VRC/7701F">VEX Robotics
                             Competition</a>
                         as a team programmer and designer.
                     </li>
-                        <li>
+                    <li>
                         🌱 I’m currently learning about RESTful APIs and
                         WebSockets to build a real-time chat application from
                         scratch.
                     </li>
-                        <li>
+                    <li>
                         📫 If you want to reach me, you can email, or DM me on
                         <a class="discord">Discord</a> at chrono#8108. I'm
                         always open to talking about anything.
                     </li>
-                    </ul>
-                </article>
-            </div>
-            <div style="grid-column: 1 / 3; grid-row: 2; gap: calc(0.75rem + 0.2vw);" class="gridE">
-                <style>
-                    .gridE {
-                        display: grid;
-                        grid-template-columns: repeat(3, 1fr);
-                        gap: calc(0.75rem + 0.2vw);
-                    }
-                </style>
-                {% for post in posts %}
-                    <div class="post white">
-                        <h2 style="margin-bottom: 0px">
-                            <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-                        </h2>
-                        <time style="margin-bottom: 0px" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-                        <!-- rounded box -->
-                        <a>
-                            {% for tag in post.data.tags %}
-                                {% if tag != "blog" %}
-                                    <span class="tags">{{ tag }}</span>
-                                {% endif %}
-                            {% endfor %}
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
+                </ul>
+            </article>
         </div>
+
+        <div class="postContainer blog">
+            {% for post in posts %}
+                <div class="post">
+                    <h1 style="margin-bottom: 0px">
+                        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                    </h1>
+                    <time style="margin-bottom: 0px" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+                    <a>
+                        {% for tag in post.data.tags %}
+                            {% if tag != "blog" %}
+                                <span class="tags">{{ tag }}</span>
+                            {% endif %}
+                        {% endfor %}
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+        <style>
+            @media (min-width: 300px) {
+                .postContainer {
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-columns: repeat(1, 1fr);
+                }
+
+                .tags {
+                    display: none;
+                }
+            }
+
+            @media (min-width: 800px) {
+                .postContainer {
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                .tags {
+                    display: inline;
+                }
+            }
+
+            @media (min-width: 1450px) {
+                .postContainer {
+                    grid-template-rows: repeat(1, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+        </style>
     </div>
+</div>

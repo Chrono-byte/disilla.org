@@ -7,42 +7,59 @@ pagination:
     reverse: true
     alias: beliefs
 ---
-
 <style>
-    .posContainer {
-        margin: 1vw;
+    .wrapper:not(.has-sidebar) {
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "content" "footer";
+    }
+
+    @media (min-width: 300px) {
+        .postContainer {
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .tags {
+            display: none;
+        }
+    }
+
+    @media (min-width: 800px) {
+        .postContainer {
+            grid-template-rows: repeat(1, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .tags {
+            display: inline;
+        }
+    }
+
+    @media (min-width: 1450px) {
+        .postContainer {
+            grid-template-rows: repeat(1, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 </style>
 
-<div style="grid-area: content; grid-column: 1/4;">
+<div style="grid-area: content" class="content">
     <div class="background-card" style="color: #ffffff; margin-bottom: calc(0.75rem + 0.2vw);">
-        <h3>Notes:</h3>
-        The contents of these articles have timestamps for when the page had a
+        <div style="margin-bottom: 0px">Notes:</div>
+        <p>The contents of these articles have timestamps for when the page had a
         last major revision. The contents of these articles are not meant to be
         a complete list of my beliefs, but rather a list of my beliefs that I
         have found to be important enough to write about. I will update these
-        articles as I learn more and change my mind.
+        articles as I learn more and change my mind.</p>
     </div>
 
-    <div class="posContainer">
+    <div style="margin: 0px 1vw;" class="postContainer blog">
         {% for post in beliefs %}
-            <div class="background-card" style="margin-bottom: 15px">
+            <div class="post">
                 <h1 style="margin-bottom: 0px">
                     <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                 </h1>
-                <time
-                style="margin-bottom: 0px"
-                datetime="{{ post.date | dateIso }}"
-                >{{ post.date | dateReadable }}</time
-            >
-                <!-- rounded box -->
-                <a>
-                    {% for tag in post.data.tags %}
-                        {% if tag != "blog" %}
-                            <span class="tags">{{ tag }}</span>
-                        {% endif %}
-                    {% endfor %}
-                </a>
+                <time style="margin-bottom: 0px" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
             </div>
         {% endfor %}
     </div>

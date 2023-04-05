@@ -3,10 +3,25 @@ layout: layouts/base.njk
 id: projects.md
 title: projects
 ---
-<div style="grid-area: content; grid-column: 1/4" class="white">
-    <div class="background-card" style="margin-bottom: 15px">
+<style>
+    .wrapper:not(.has-sidebar) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .proj {
+        grid-row: auto;
+        grid-column: 1;
+    }
+
+    footer {
+        grid-column: 1/4;
+    }
+</style>
+
+<div style="grid-area: content; grid-column: 1/4" class="white grid">
+    <div class="background-card proj" style="margin-bottom: 0px;">
         <div style="margin-bottom: 0px">
-            VEX Robotics Competition<br />
+            VEX Robotics Competition<br/>
             2019-2023
         </div>
         <p>
@@ -15,50 +30,50 @@ title: projects
             4 years as a programmer and designer. My team worked hard in the
             incredibly difficult Indiana region and managed to qualify for the
             State Championship in 2023 and fell just short of qualifying for the
-            World Championship.<br />
+            World Championship.<br/>
             Links: <a href="https://github.com/7701F">GitHub</a>,
             <a href="https://www.robotevents.com/teams/VRC/7701F"
                 >RobotEvents</a
             >
         </p>
     </div>
-    <div class="background-card" style="margin-bottom: 15px">
+    <div class="background-card proj" style="margin-bottom: 0px;">
         <div style="margin-bottom: 0px">
-            Hammer<br />
+            Hammer<br/>
             2019-2023
         </div>
         <p>
             Simple chat server written in JS on both the client and server side.
             Uses WebSockets for all communication. I decided to use these
             technologies out of simplicity. I personally wrote all the code for
-            the entire stack, authentication, socket, etc.<br />
+            the entire stack, authentication, socket, etc.<br/>
             Links:
             <a href="https://github.com/Hammer-Institute/hammer">GitHub</a>
         </p>
     </div>
-    <div class="background-card" style="margin-bottom: 15px">
+    <div class="background-card proj" style="margin-bottom: 0px;">
         <div style="margin-bottom: 0px">
-            Katana<br />
+            Katana<br/>
             2022
         </div>
         <p>
             Prototype datastore that takes in strings as arrays, stored in a
             json file. The keystore takes the string that the programmer inputs
             and stores it in a separate keystore JSON object with the location
-            of the data in the data array, then stores that in another file.<br />
+            of the data in the data array, then stores that in another file.<br/>
             Links:
             <a href="https://github.com/Chrono-byte/Katana">GitHub</a>
         </p>
     </div>
-    <div class="background-card" style="margin-bottom: 15px">
+    <div class="background-card proj" style="margin-bottom: 0px;">
         <div style="margin-bottom: 0px">
-            SmoreSoftware<br />
+            SmoreSoftware<br/>
             2017-2018
         </div>
         <p>
             I was the founder/member of a small software development team that
             created a Discord bots for a variety of purposes.
-            <br />
+            <br/>
             Links: None, project was abandoned.
         </p>
     </div>

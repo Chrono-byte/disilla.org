@@ -1,0 +1,52 @@
+
+
+/* purdue gold */
+.gold {
+    color: #daaa00;
+}
+
+/* purdue black */
+.black {
+    color: #000000;
+}
+
+/* f1 red */
+.f1 {
+    color: #e10600;
+}
+
+/* VEX V5 Red™ */
+.red {
+    color: #d22630;
+}
+
+/* IU Crimson */
+.crimson {
+    color: #990000;
+}
+
+/* bold pure white */
+.white {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* JS Yellow */
+.js {
+    color: #f7e01d;
+}
+
+/* TS blue */
+.ts {
+    color: #2d79c7;
+}
+
+/* C++  */
+.cpp {
+    color: #659bd3;
+}
+
+/* discord blurple */
+.discord {
+    color: #5865f2;
+}
