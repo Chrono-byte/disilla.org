@@ -2,6 +2,11 @@
 layout: layouts/base.njk
 ---
 <style>
+    .wrapper:not(.has-sidebar) {
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "content" "footer";
+    }
+
     .timestamp {
         background: rgba(0, 0, 0, 0.37);
         border: #f0f0f0;
@@ -28,15 +33,9 @@ layout: layouts/base.njk
         margin-top: 0.5rem;
         margin-bottom: 0;
 
-        {
-            # underline #
-        }
-        border-bottom: 5px solid #f0f0f0;
+        border-bottom: 3px solid #f0f0f0;
         padding-bottom: 0.1rem;
 
-        {
-            # lock the underline to the width of the text #
-        }
         max-width: fit-content;
     }
 
@@ -73,7 +72,6 @@ layout: layouts/base.njk
     }
 
     article {
-        margin: 0 5vw;
         padding: 1rem;
 
         max-width: 75.97vw;
@@ -85,10 +83,15 @@ layout: layouts/base.njk
         }
     }
 
-    @media (min-width: 1000px) {
-        .wrapper:not(.has-sidebar) {
-            grid-template-columns: 1fr;
-            grid-template-areas: "header" "content" "footer";
+    @media (min-width: 450px) {
+        .background-card {
+            margin: 0 1.25vw;
+        }
+    }
+
+    @media (min-width: 700px) {
+        .background-card {
+            margin: 0 5vw;
         }
     }
 </style>

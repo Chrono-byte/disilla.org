@@ -7,8 +7,8 @@ pagination:
     alias: posts
 ---
 <div style="" class="profile-card">
-    <img src="/img/25267581.png" class="lazy" alt="image of female knight holding a sword" data-ll-status="loaded" width="36.3%"
-            style="border: 6px solid #555; border-radius: 29.97%;"/>
+    <img src="/img/25267581.png" class="lazy avatar entered loaded" alt="image of female knight holding a sword" data-ll-status="loaded" width="36.3%"
+            style="border: 6px solid #555; border-radius: 29.97%;" async/>
     <div class="name">Michael Gummere</div>
     <div class="name-alt">@chrono / @chrono-byte</div>
 
@@ -20,7 +20,6 @@ pagination:
         <a class="gold">Purdue University in Indianapolis</a>
         <a class="crimson" style="font-size: xx-small;"> @ IU<a class="gold" style="font-size: xx-small;">PU</a>
             <a style="font-size: xx-small;">I</a>
-
         </div>
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -55,6 +54,26 @@ pagination:
             🇺🇸 <a class="white" style="font-size: smaller;">(native)</a> / 🇫🇷 <a class="white"
                 style="font-size: smaller;">(beginner)</a>
         </div>
+    </div>
+</div>
+
+<div id="blogMesh">
+    <div class="postContainer blog">
+        {% for post in posts %}
+            <div class="post">
+                <h1 style="margin-bottom: 0px">
+                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                </h1>
+                <time style="margin-bottom: 0px" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+                <a>
+                    {% for tag in post.data.tags %}
+                        {% if tag != "blog" %}
+                            <span class="tags">{{ tag }}</span>
+                        {% endif %}
+                    {% endfor %}
+                </a>
+            </div>
+        {% endfor %}
     </div>
 </div>
 
@@ -101,7 +120,7 @@ pagination:
             </article>
         </div>
 
-        <div class="postContainer blog">
+        <div id="blogDisplay" class="postContainer blog">
             {% for post in posts %}
                 <div class="post">
                     <h1 style="margin-bottom: 0px">
