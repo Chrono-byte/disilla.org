@@ -41,7 +41,7 @@ Overall, while traditional conservatism may emphasize individual freedom and fre
 
 ### Liberalism (As in left-wing)
 
-Soon™️
+Liberalism is an ideology that forms the building blocks of our very nation. It is a political ideology that emphasizes individual freedom and equality under the law. It is often associated with the political left, however it is not a left-wing ideology in and of itself. For example, it was orignally a liberal idea we should have a separation of church and state, that we should elect our leaders.
 
 #### Leftists
 
