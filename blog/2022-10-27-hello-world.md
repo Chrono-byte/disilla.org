@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Hello, World!
 id: hello-world.md
 date: 2022-10-27
-tags: ['blog', 'meta']
+tags: ["blog", "meta"]
 ---
 
 Finally got around to putting this old website together. It is powered by Eleventy, which means there is a base template and then subsequent pages are generated from Markdown files or HTML should I need more power.

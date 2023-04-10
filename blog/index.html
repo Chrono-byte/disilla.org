@@ -8,6 +8,7 @@ pagination:
     reverse: true
     alias: posts
 ---
+
 <style>
     .wrapper:not(.has-sidebar) {
         grid-template-columns: 1fr;
@@ -54,31 +55,39 @@ pagination:
     }
 
     .content p {
-        margin  : 0;
+        margin: 0;
     }
 </style>
 
 <div style="grid-area: content" class="content">
-    <div class="background-card" style="color: #ffffff; margin-bottom: calc(0.75rem + 0.2vw);">
+    <div
+        class="background-card"
+        style="color: #ffffff; margin-bottom: calc(0.75rem + 0.2vw)"
+    >
         <h2 style="margin-bottom: 0px">Blog</h2>
-        <p>Here you can find all my blog posts. I write about my projects, my thoughts and my life.</p>
+        <p>
+            Here you can find all my blog posts. I write about my projects, my
+            thoughts and my life.
+        </p>
     </div>
 
-    <div style="margin: 0px 1vw;" class="postContainer blog">
+    <div style="margin: 0px 1vw" class="postContainer blog">
         {% for post in posts %}
-            <div class="post">
-                <h1 style="margin-bottom: 0px">
-                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-                </h1>
-                <time style="margin-bottom: 0px" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-                <a>
-                    {% for tag in post.data.tags %}
-                        {% if tag != "blog" %}
-                            <span class="tags">{{ tag }}</span>
-                        {% endif %}
-                    {% endfor %}
-                </a>
-            </div>
+        <div class="post">
+            <h1 style="margin-bottom: 0px">
+                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            </h1>
+            <time
+                style="margin-bottom: 0px"
+                datetime="{{ post.date | dateIso }}"
+                >{{ post.date | dateReadable }}</time
+            >
+            <a>
+                {% for tag in post.data.tags %} {% if tag != "blog" %}
+                <span class="tags">{{ tag }}</span>
+                {% endif %} {% endfor %}
+            </a>
+        </div>
         {% endfor %}
     </div>
 </div>

@@ -1,23 +1,24 @@
 {
-  "name": "disila.org",
-  "version": "1.0.0",
-  "description": "chrono's homepage",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx eleventy",
-    "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy",
-    "spell-check": "yarn cspell lint --no-progress blog/* posts/* positions/* projects/* index.md"
-  },
-  "keywords": [],
-  "contributors": [
-    "chrono <me@disilla.org"
-  ],
-  "license": "AGPL-3.0-only",
-  "homepage": "https://disilla.org",
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
-    "cspell": "^5.3.4",
-    "moment": "^2.29.4"
-  }
+    "name": "disila.org",
+    "version": "1.0.0",
+    "description": "chrono's homepage",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx eleventy",
+        "serve": "npx eleventy --serve",
+        "debug": "DEBUG=* npx eleventy",
+        "spell-check": "yarn cspell lint --no-progress blog/* positions/* projects/* index.html"
+    },
+    "keywords": [],
+    "contributors": [
+        "chrono <me@disilla.org"
+    ],
+    "license": "AGPL-3.0-only",
+    "homepage": "https://disilla.org",
+    "devDependencies": {
+        "@11ty/eleventy": "^1.0.2",
+        "cspell": "^5.3.4",
+        "moment": "^2.29.4",
+        "prettier": "2.8.7"
+    }
 }

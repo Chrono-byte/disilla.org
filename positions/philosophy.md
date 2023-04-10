@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 id: philosophy.md
 title: Philosophy
-tags: ['positions']
+tags: ["positions"]
 date: 2023-04-05
 ---
 
@@ -12,13 +12,15 @@ date: 2023-04-05
 
 When engaging with politics, it's foundational to have a set of philosophical beliefs that you can use to guide your decision-making.
 
-- Part I
-   1. I exist.
+-   Part I
 
-- Part II
+    1. I exist.
+
+-   Part II
+
     1. Other people exist.
 
-- Part III
+-   Part III
     1. I have a right to exist.
     2. Other people have a right to exist, free of my interference.
 

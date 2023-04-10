@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 id: politics.md
 title: Politics
-tags: ['positions']
+tags: ["positions"]
 date: 2022-12-29
 ---
 
@@ -20,7 +20,7 @@ I think there are some good ideas that some good ideas can come from right wing 
 
 #### Neo-conservatives
 
-> "At its root is a disease that has infected our politics, one that will make some political leaders do anything – including lie and incite violence – to hold on to power.  That’s what we’re seeing before our very eyes." - Rep. Greg Stanton [(January 6th, 2021)](https://www.youtube.com/watch?v=PAQY8U6goEw)
+> "At its root is a disease that has infected our politics, one that will make some political leaders do anything – including lie and incite violence – to hold on to power. That’s what we’re seeing before our very eyes." - Rep. Greg Stanton [(January 6th, 2021)](https://www.youtube.com/watch?v=PAQY8U6goEw)
 
 I generally try not to wholely disregard groups, however from my engagement with many neo-cons online, I've come to fundamentally regard them as one of the single greatest threats to American democracy.
 
@@ -37,7 +37,6 @@ Second, traditional conservatism often resists social and cultural change, inclu
 Finally, traditional conservatism often values the past over the future and seeks to maintain the status quo rather than embracing progress and innovation. This can lead to a reluctance to address pressing social and environmental challenges, such as climate change, poverty, and inequality.
 
 Overall, while traditional conservatism may emphasize individual freedom and free markets, it can also have negative consequences for marginalized groups and the broader society, and may not adequately address important challenges facing the world today.
-
 
 ### Liberalism (As in left-wing)
 
@@ -57,7 +56,7 @@ Overall, the relationship between social liberalism and leftism is complex and m
 
 ### "Omni-Liberalism"
 
-In politics, it can be useful to know which particular ideology someone subscribes to. However, I do not fall perfectly in-line with any particular ideology. I describe myself as an *Omni-Liberal*, which is a made-up, tongue-in-cheek term to encapsulate the general position of:
+In politics, it can be useful to know which particular ideology someone subscribes to. However, I do not fall perfectly in-line with any particular ideology. I describe myself as an _Omni-Liberal_, which is a made-up, tongue-in-cheek term to encapsulate the general position of:
 
 1. Having the core values of liberalism (e.g. freedom and equality).
 2. Taking the best parts of all different kinds of political ideologies and using them together in a pragmatic way.
@@ -74,7 +73,7 @@ At a high-level, capitalism seems to be the best-known economic system to genera
 
 One such issue I'm interested in is the locking down of publicly funded researched that society as a whole should benefit from getting locked down by private companies using patents and other unethical means.
 
-There are different kinds of capitalism, ranging all the way from *[laissez-faire](https://en.wikipedia.org/wiki/Laissez-faire)* (e.g. [free market](https://en.wikipedia.org/wiki/Free_market)) to [state capitalism](https://en.wikipedia.org/wiki/State_capitalism) (e.g. [China](https://en.wikipedia.org/wiki/State_capitalism#Mainland_China)). Completely free-market systems have serious downsides (e.g. monopolies, unequal bargaining power) and don't properly account for negative externalities (e.g. pollution, global warming) without government intervention. Thus, I believe that capitalism should be tempered by a strong government that tries to correct for these problems, similar to how [Nordic countries function](https://en.wikipedia.org/wiki/Nordic_model). Not surprisingly, this is the economic model of nearly all advanced economies in the West.
+There are different kinds of capitalism, ranging all the way from _[laissez-faire](https://en.wikipedia.org/wiki/Laissez-faire)_ (e.g. [free market](https://en.wikipedia.org/wiki/Free_market)) to [state capitalism](https://en.wikipedia.org/wiki/State_capitalism) (e.g. [China](https://en.wikipedia.org/wiki/State_capitalism#Mainland_China)). Completely free-market systems have serious downsides (e.g. monopolies, unequal bargaining power) and don't properly account for negative externalities (e.g. pollution, global warming) without government intervention. Thus, I believe that capitalism should be tempered by a strong government that tries to correct for these problems, similar to how [Nordic countries function](https://en.wikipedia.org/wiki/Nordic_model). Not surprisingly, this is the economic model of nearly all advanced economies in the West.
 
 ### Populism
 

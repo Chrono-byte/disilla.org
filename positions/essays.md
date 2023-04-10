@@ -2,9 +2,10 @@
 layout: layouts/post.njk
 id: essays.md
 title: Essays
-tags: ['positions']
+tags: ["positions"]
 date: 2023-04-29
 ---
+
 This is a collection of essays I have written on various topics.
 
 ### Improving Public Transit
