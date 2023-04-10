@@ -3,7 +3,7 @@ layout: layouts/post.njk
 id: philosophy.md
 title: Philosophy
 tags: ['positions']
-date: 2022-12-29
+date: 2023-04-05
 ---
 
 > "It's The Code You Live By That Defines Who You Are." — Johnny Silverhand (Cyberpunk 2077)

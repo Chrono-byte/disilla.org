@@ -42,11 +42,25 @@ pagination:
             grid-template-columns: repeat(2, 1fr);
         }
     }
+
+    .content h2 {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+
+        border-bottom: 3px solid #f0f0f0;
+        padding-bottom: 0.1rem;
+
+        max-width: fit-content;
+    }
+
+    .content p {
+        margin  : 0;
+    }
 </style>
 
 <div style="grid-area: content" class="content">
     <div class="background-card" style="color: #ffffff; margin-bottom: calc(0.75rem + 0.2vw);">
-        <div style="margin-bottom: 0px">Blog</div>
+        <h2 style="margin-bottom: 0px">Blog</h2>
         <p>Here you can find all my blog posts. I write about my projects, my thoughts and my life.</p>
     </div>
 
