@@ -1,13 +1,13 @@
 {
     "name": "disila.org",
-    "version": "1.0.0",
+    "packageManager": "yarn@3.5.0",
     "description": "chrono's homepage",
     "main": "index.js",
     "scripts": {
-        "build": "npx eleventy",
-        "serve": "npx eleventy --serve",
-        "debug": "DEBUG=* npx eleventy",
-        "spell-check": "yarn cspell lint --no-progress blog/* positions/* projects/* index.html"
+        "build": "eleventy",
+        "serve": "eleventy --serve",
+        "debug": "DEBUG=* eleventy",
+        "spell-check": "cspell lint --no-progress blog/* positions/* projects/* index.html"
     },
     "keywords": [],
     "contributors": [

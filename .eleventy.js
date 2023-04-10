@@ -35,8 +35,6 @@ module.exports = function (eleventyConfig) {
         return str;
     });
 
-    // GitHub Flavored Markdown (GFM) library
-
     // return
     return {
         passthroughFileCopy: true,

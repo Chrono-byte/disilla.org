@@ -1,5 +1,7 @@
+# Build output
 _site
-node_modules
+
+# Yarn Ignores
 .yarn/*
 !.yarn/cache
 !.yarn/patches
