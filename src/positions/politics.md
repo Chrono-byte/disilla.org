@@ -10,13 +10,13 @@ date: 2022-12-29
 
 ## Elections
 
-I believe that local elections (and eventually national) would greatly benefit from switching off the antiquated first-past-the-post system. Both the Democratic and Republican parties, nationally and state-level, are greatly disconnected from the average American.
+I believe that local elections (and eventually national) would greatly benefit from switching off the antiquated first-past-the-post system. Both the Democratic and Republican parties, national and state-level, are greatly disconnected from the average American.
 
 ## Ideologies
 
 ### Conservatism
 
-I think there are some good ideas that some good ideas can come from right wing individuals, however, in the US many conservatives refuse to cede any ground
+I think there are some good ideas that some good ideas can come from right-wing individuals, however, in the US many conservatives refuse to cede any ground
 
 #### Neo-conservatives
 
@@ -38,13 +38,13 @@ Overall, while traditional conservatism may emphasize individual freedom and fre
 
 ### Liberalism
 
-Liberalism is an ideology that forms the building blocks of our very nation. It is a political ideology that emphasizes individual freedom and equality under the law. It is often associated with the political left, however it is not a left-wing ideology in and of itself. For example, it was originally a liberal idea we should have a separation of church and state, that we should elect our leaders.
+Liberalism is an ideology that forms the building blocks of our very nation. It is a political ideology that emphasizes individual freedom and equality under the law. It is often associated with the political left, however, it is not a left-wing ideology in and of itself. For example, it was originally a liberal idea we should have a separation of church and state, and that we should elect our leaders.
 
 #### Leftists
 
 Leftism is a broad term that encompasses a variety of political ideologies that are typically characterized by a focus on social justice, equality, and the promotion of collective well-being. These ideologies include socialism, communism, and social democracy. Leftist ideologies often advocate for the government to play a larger role in redistributing wealth and providing social services, as well as promoting workers' rights and protections.
 
-From my social liberal perspective, leftism is a means of addressing social and economic inequalities and promoting a more just and equal society.I tend to lean towards support a mixed economy, in which the government regulates and provides certain services, while also allowing for private enterprise and individual freedom. They may see leftism as a way to balance the needs of the individual with the needs of the community, and to ensure that everyone has access to the opportunities and resources they need to thrive.
+From my social liberal perspective, leftism is a means of addressing social and economic inequalities and promoting a more just and equal society.I tend to lean towards supporting a mixed economy, in which the government regulates and provides certain services, while also allowing for private enterprise and individual freedom. They may see leftism as a way to balance the needs of the individual with the needs of the community, and to ensure that everyone has access to the opportunities and resources they need to thrive.
 
 However, I also have concerns about the potential negative consequences of some leftist policies, such as their impact on economic growth and individual freedom. Many ideas espoused by leftists often minimize individual freedom for "the benefit of society at large", many in ways I don't feel are positive. They may also argue that there are other, more effective ways to achieve social and economic justice, such as through market-based solutions or targeted interventions.
 
@@ -52,7 +52,7 @@ Overall, the relationship between social liberalism and leftism is complex and m
 
 ### "Omni-Liberalism"
 
-In politics, it can be useful to know which particular ideology someone subscribes to. However, I do not fall perfectly in-line with any particular ideology. I describe myself as an _Omni-Liberal_, which is a made-up, tongue-in-cheek term to encapsulate the general position of:
+In politics, it can be useful to know which particular ideology someone subscribes to. However, I do not fall perfectly in line with any particular ideology. I describe myself as an _Omni-Liberal_, which is a made-up, tongue-in-cheek term to encapsulate the general position of:
 
 1. Having the core values of liberalism (e.g. freedom and equality).
 2. Taking the best parts of all different kinds of political ideologies and using them together in a pragmatic way.
@@ -63,11 +63,11 @@ In politics, it can be useful to know which particular ideology someone subscrib
 
 I consider myself to be a [capitalist](https://en.wikipedia.org/wiki/Capitalism).
 
-At a high-level, capitalism seems to be the best-known economic system to generate wealth. I believe the responsibility of any economic system should, first and foremost, be to allocate resources in an economy as efficiently as possible to create the largest possible base from which to draw taxes to redistribute to those who need it most. I recognize in many western countries, especially the United States, we seem to have a big problem with the "redistribution" part.
+At a high-level, capitalism seems to be the best-known economic system to generate wealth. I believe the responsibility of any economic system should, first and foremost, be to allocate resources in an economy as efficiently as possible to create the largest possible base from which to draw taxes to redistribute to those who need it most. I recognize in many Western countries, especially the United States, we seem to have a big problem with the "redistribution" part.
 
-One such issue I'm interested in is the locking down of publicly funded researched that society as a whole should benefit from getting locked down by private companies using patents and other unethical means.
+One such issue I'm interested in is the locking down of publicly funded research that society as a whole should benefit from getting locked down by private companies using patents and other unethical means.
 
-There are different kinds of capitalism, ranging all the way from _[laissez-faire](https://en.wikipedia.org/wiki/Laissez-faire)_ (e.g. [free market](https://en.wikipedia.org/wiki/Free_market)) to [state capitalism](https://en.wikipedia.org/wiki/State_capitalism) (e.g. [China](https://en.wikipedia.org/wiki/State_capitalism#Mainland_China)). Completely free-market systems have serious downsides (e.g. monopolies, unequal bargaining power) and don't properly account for negative externalities. Thus, I believe that capitalism should be reigned in by a strong government that tries to correct for these problems, similar to how [Nordic countries function](https://en.wikipedia.org/wiki/Nordic_model). Not surprisingly, this is the economic model of nearly all economies in the West.
+There are different kinds of capitalism, ranging all the way from _[laissez-faire](https://en.wikipedia.org/wiki/Laissez-faire)_ (e.g. [free market](https://en.wikipedia.org/wiki/Free_market)) to [state capitalism](https://en.wikipedia.org/wiki/State_capitalism) (e.g. [China](https://en.wikipedia.org/wiki/State_capitalism#Mainland_China)). Completely free-market systems have serious downsides (e.g. monopolies, unequal bargaining power) and don't properly account for negative externalities. Thus, I believe that capitalism should be reigned by a strong government that tries to correct these problems, similar to how [Nordic countries function](https://en.wikipedia.org/wiki/Nordic_model). Not surprisingly, this is the economic model of nearly all economies in the West.
 
 ### Populism
 
@@ -83,4 +83,4 @@ Populism is usually defined as "the people" versus "the elites." This happens on
 
 I do not support [socialism](https://en.wikipedia.org/wiki/Socialism) or [communism](https://en.wikipedia.org/wiki/Communism). I believe that these systems are fundamentally flawed and have been proven to be ineffective at producing wealth and improving the lives of the people. Many people online fundamentally refuse to accept this, and I believe that this is a big part of the reason why the left is so divided. Many online socialists refuse to engage with even those who would be solid liberals. I've personally experienced this with numerous individuals I've previously and currently consider to be close friends of mine.
 
-One such fundamental flaw in my opinion is similar to that of the core flaw of laissez-faire capitalism. Many people who espouse socialist ideas believe that those in power would be perfect individuals, who would only act in the interest of the system as a whole, and not self interested as people often act.
+One such fundamental flaw in my opinion is similar to that of the core flaw of laissez-faire capitalism. Many people who espouse socialist ideas believe that those in power would be perfect individuals, who would only act in the interest of the system as a whole, and not self-interested as people often act.
