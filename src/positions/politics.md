@@ -44,8 +44,6 @@ Liberalism is an ideology that forms the building blocks of our very nation. It 
 
 #### Leftists
 
-Individuals who fall further left than US liberals often are described (in US politics) as "leftists". Personally I believe this to be far to broad a term to have any meaningful discussion about.
-
 Leftism is a broad term that encompasses a variety of political ideologies that are typically characterized by a focus on social justice, equality, and the promotion of collective well-being. These ideologies include socialism, communism, and social democracy. Leftist ideologies often advocate for the government to play a larger role in redistributing wealth and providing social services, as well as promoting workers' rights and protections.
 
 From my social liberal perspective, leftism is a means of addressing social and economic inequalities and promoting a more just and equal society.I tend to lean torwards support a mixed economy, in which the government regulates and provides certain services, while also allowing for private enterprise and individual freedom. They may see leftism as a way to balance the needs of the individual with the needs of the community, and to ensure that everyone has access to the opportunities and resources they need to thrive.
