@@ -61,8 +61,6 @@ In politics, it can be useful to know which particular ideology someone subscrib
 1. Having the core values of liberalism (e.g. freedom and equality).
 2. Taking the best parts of all different kinds of political ideologies and using them together in a pragmatic way.
 
-Omni-liberalism was coined by [Destiny](https://destiny.gg), an online political streamer who's community I frequent.
-
 ### Capitalism
 
 > "We Shouldn't Fear Change Itself." — Misty (Cyberpunk 2077)
