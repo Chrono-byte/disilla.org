@@ -26,11 +26,9 @@ I generally try not to wholly disregard groups, however from my engagement with 
 
 #### Traditional Conservatives
 
-Conservatism is a political ideology that aims to uphold traditional values and institutions, often with a focus on preserving social hierarchy and the status quo. It claims to emphasize individual freedom, free markets, and limited government intervention in economic affairs.
+Conservatism is a political ideology that tries to uphold traditional values and institutions at the cost of any progress, with a focus on preserving social hierarchy and the status quo. It oft claims to emphasize individual freedom, free markets, and limited government intervention in economic affairs. However in their pursuit of maintaining the status quo, they often seek to limit individual freedom.
 
-However, from a leftist perspective, traditional conservatism can be problematic for several reasons.
-
-Firstly, conservatism often prioritizes the interests and values of the wealthy and the elite over those of the working class and marginalized groups. It often promotes policies that benefit the rich and powerful at the expense of the rest of society, such as tax cuts for the wealthy and deregulation of industries. These policies can lead to increased inequality and a concentration of wealth and power in the hands of a few. Conservatism resists social and cultural change, such as moves to reduce inequality, as they view it as "unfair". It often seeks to maintain traditional gender roles and oppose efforts to promote LGBTQ+ rights, racial and social justice, and other progressive causes. This resistance to change can perpetuate harmful systems of oppression and discrimination.
+Firstly, conservatism often prioritizes the interests and values of the wealthy and the elite over those of the working class and marginalized groups. It often promotes policies that help the rich at the expense of the rest of society, such as tax cuts for the wealthy and deregulation of industries. These policies can lead to concentration of wealth and power in the hands of a few. Conservatism resists social and cultural change, such as moves to reduce inequality, as they view it as "unfair". It often seeks to maintain traditional gender roles and oppose efforts to promote LGBTQ+ rights, racial and social justice, and other progressive causes. This resistance to change can perpetuate harmful systems of oppression and discrimination.
 
 Finally, traditional conservatism often values the past over the future and seeks to maintain the status quo rather than embracing progress and innovation. This can lead to a reluctance to address pressing social and environmental challenges, such as climate change, poverty, and inequality.
 
