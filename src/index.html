@@ -16,9 +16,9 @@ pagination:
             width="36.3%"
             style="border: 6px solid #555; border-radius: 29.97%"
             async
-        /><br />
+/><br/>
         <div>
-            <a class="name">Michael Gummere</a><br />
+            <a class="name">Michael Gummere</a><br/>
             <a class="name-alt">@chrono / @chrono-byte</a>
         </div>
     </div>
@@ -64,15 +64,13 @@ pagination:
             <time id="time"></time>
             <script>
                 // show ONLY time, no date, in EST time zone (UTC-5) every second
-                document.getElementById("time").innerHTML =
-                    new Date().toLocaleTimeString("en-US", {
-                        timeZone: "America/Indiana/Indianapolis",
-                    });
+                document
+                    .getElementById("time")
+                    .innerHTML = new Date().toLocaleTimeString("en-US", {timeZone: "America/Indiana/Indianapolis"});
                 setInterval(function () {
-                    document.getElementById("time").innerHTML =
-                        new Date().toLocaleTimeString("en-US", {
-                            timeZone: "America/Indiana/Indianapolis",
-                        });
+                    document
+                        .getElementById("time")
+                        .innerHTML = new Date().toLocaleTimeString("en-US", {timeZone: "America/Indiana/Indianapolis"});
                 }, 1000);
             </script>
         </div>
@@ -96,21 +94,23 @@ pagination:
 <div id="blogMesh">
     <div class="postContainer blog">
         {% for post in posts %}
-        <div class="post">
-            <h1 style="margin-bottom: 0px">
-                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-            </h1>
-            <time
+            <div class="post">
+                <h1 style="margin-bottom: 0px">
+                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                </h1>
+                <time
                 style="margin-bottom: 0px"
                 datetime="{{ post.date | dateIso }}"
                 >{{ post.date | dateReadable }}</time
             >
-            <a>
-                {% for tag in post.data.tags %} {% if tag != "blog" %}
-                <span class="tags">{{ tag }}</span>
-                {% endif %} {% endfor %}
-            </a>
-        </div>
+                <a>
+                    {% for tag in post.data.tags %}
+                        {% if tag != "blog" %}
+                            <span class="tags">{{ tag }}</span>
+                        {% endif %}
+                    {% endfor %}
+                </a>
+            </div>
         {% endfor %}
     </div>
 </div>
@@ -120,23 +120,17 @@ pagination:
         <div style="grid-column: 1 / 3; grid-row: 1" class="background-card">
             <article class="about">
                 <p>
-                    I am a rising freshman at
-                    <a class="gold">Purdue University in Indianapolis</a>
-                    studying engineering. I'm currently working on a real-time
-                    chat application from scratch using Node.js, and WebSockets.
-                    I competed in the
-                    <a class="crimson">VEX Robotics Competition</a> for 4 years
-                    as a programmer and designer. My team worked hard in the
-                    incredibly difficult Indiana region and managed to qualify
-                    for the State Championship in 2023 and fell just short of
-                    qualifying for the World Championship. I've been programming
-                    for 7 years and have experience with <a class="cpp">C++</a>,
-                    <a class="js">JavaScript</a>, as well as some light
-                    TypeScript and Python knowledge. I'm planning to eventually
-                    work in the field of motorsports as I've had a multi-year
-                    obsession with stage rally and Formula 1. My dream is to
-                    work for a motorsports team as a software engineer or
-                    possibly switching disciplines and becoming a engineer.
+                    I'm a software developer/engineering student and a rising freshman at
+                    <a class="gold">IUPUI</a>. I'm currently working on a real-time chat
+                    application from scratch using Node.js, and WebSockets. I competed
+                    in the <a class="crimson">VEX Robotics Competition</a> for 4 years as a
+                    programmer and designer. My team worked hard in the incredibly difficult
+                    Indiana region and managed to qualify for the State Championship in 2023
+                    and fell just short of qualifying for the World Championship. I've been
+                    programming for 7 years and have experience with <a class="cpp">C++</a>,
+                    <a class="js">JavaScript</a>, and some light <a class="ts">TypeScript</a>
+                    and Python knowledge. I hope to one day work in motorsports in
+                    stage rally or open wheel racing.
                 </p>
                 <ul>
                     <li>
@@ -164,21 +158,23 @@ pagination:
 
         <div id="blogDisplay" class="postContainer blog">
             {% for post in posts %}
-            <div class="post">
-                <h1 style="margin-bottom: 0px">
-                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-                </h1>
-                <time
+                <div class="post">
+                    <h1 style="margin-bottom: 0px">
+                        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                    </h1>
+                    <time
                     style="margin-bottom: 0px"
                     datetime="{{ post.date | dateIso }}"
                     >{{ post.date | dateReadable }}</time
                 >
-                <a>
-                    {% for tag in post.data.tags %} {% if tag != "blog" %}
-                    <span class="tags">{{ tag }}</span>
-                    {% endif %} {% endfor %}
-                </a>
-            </div>
+                    <a>
+                        {% for tag in post.data.tags %}
+                            {% if tag != "blog" %}
+                                <span class="tags">{{ tag }}</span>
+                            {% endif %}
+                        {% endfor %}
+                    </a>
+                </div>
             {% endfor %}
         </div>
         <style>
